@@ -15,5 +15,5 @@ INT
 The test can be triggered with the following command.
 For this test the browsers are chrome or firefox
 
-mvn clean test -Denv=[ENVIRONMENT] -Dbrowser[browser name]
+mvn clean test -Denv=[ENVIRONMENT] -Dbrowser[BROWSER NAME]
 
