@@ -1,19 +1,22 @@
 # Aphix_QATest
 
-Tools Used for testing --
+ -- -- Tools Used for testing -- --
 
 TestNG Framework
 
 
-How to execute --
+ -- -- How to execute -- --
 
-This is a maven project and its enabled to handle configurations and data source for following environments
+This is a maven project.
+It can be run in the following environments:
 
 DEV
 INT
 
-The test can be triggered with the following command.
-For this test the browsers are chrome or firefox
+The test can be triggered with the following command:
+
 
 mvn clean test -Denv=[ENVIRONMENT] -Dbrowser[BROWSER NAME]
+
+For this test the allowed browsers are: chrome and firefox
 
